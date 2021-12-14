@@ -1,0 +1,6 @@
+framework module FinAppletWebRTC {
+  umbrella header "FinAppletWebRTC.h"
+
+  export *
+  module * { export * }
+}
