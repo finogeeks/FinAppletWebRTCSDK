@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "FinAppletWebRTC"
-  s.version      = "2.34.9"
-  s.summary      = "FinClip webrtc sdk."
+  s.version      = "2.35.1"
+  s.summary      = "FinApplet webRTC sdk."
   s.description  = <<-DESC
                     this is common
                    DESC
@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
   s.author             = { "finclip" => "contact@finogeeks.com" }
   s.platform     = :ios, "9.0"
   s.ios.deployment_target = "9.0"
-  s.source       = { :git => "https://gitlab.finogeeks.club/finclipsdk/finclipwebrtcextsdk-ios.git", :tag => s.version.to_s }
-  s.source_files  = "FinAppletWebRTC/**/*.{h,m,c}"
-  s.resources = ['FinAppletWebRTC/Resource/*']
-  s.static_framework = true
+  s.source       = { :http => "https://app.finogeeks.com/finchat/sdk/FinAppletWebRTC-2.35.1.zip"  }
+  s.source_files  = "Headers/**/*.h"
+  s.vendored_frameworks = "FinAppletWebRTC.framework" 
+  s.libraries = 'c++'
   s.dependency 'GoogleWebRTC'
-  s.dependency 'FinApplet'
+  s.dependency 'FinApplet','2.35.1'
 end
