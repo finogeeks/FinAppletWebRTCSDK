@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.source       = { :http => "https://app.finogeeks.com/finchat/sdk/FinAppletWebRTC-_FinAppletWebRTC_version_.zip"  }
   s.vendored_frameworks = "FinAppletWebRTC.framework" 
   s.libraries = 'c++'
-  s.dependency 'GoogleWebRTC'
+  s.dependency 'GoogleWebRTC','1.1.26989'
   s.dependency 'FinApplet','_FinAppletWebRTC_version_'
 end
