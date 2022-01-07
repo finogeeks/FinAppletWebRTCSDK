@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.ios.deployment_target = "9.0"
   s.source       = { :http => "https://app.finogeeks.com/finchat/sdk/FinAppletWebRTC-2.35.1.zip"  }
-  s.source_files  = "Headers/**/*.h"
   s.vendored_frameworks = "FinAppletWebRTC.framework" 
   s.libraries = 'c++'
   s.dependency 'GoogleWebRTC'
