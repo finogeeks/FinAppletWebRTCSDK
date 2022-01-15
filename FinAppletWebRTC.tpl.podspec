@@ -20,5 +20,4 @@ Pod::Spec.new do |s|
   s.libraries = 'c++'
   s.dependency 'GoogleWebRTC','1.1.26989'
   s.dependency 'FinApplet','_FinAppletWebRTC_version_'
-  //
 end
