@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "_FinAppletWebRTC_version_"
   s.summary      = "FinApplet webRTC sdk."
   s.description  = <<-DESC
-                    this is common
+                    this is FinApplet webRTC sdk.
                    DESC
   s.homepage     = "https://www.finclip.com"
   s.license      = {
