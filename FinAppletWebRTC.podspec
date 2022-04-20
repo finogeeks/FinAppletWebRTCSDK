@@ -20,4 +20,8 @@ Pod::Spec.new do |s|
   s.libraries = 'c++'
   s.dependency 'GoogleWebRTC','1.1.26989'
   s.dependency 'FinApplet','2.36.5'
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
