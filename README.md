@@ -48,7 +48,7 @@
 
 ## 📦 使用注意
 
-在本 DEMO 文档中，您需要根据实际使用情况，修改**下单接口、微信支付调起参数以及 FinClip SDK KEY&SECRET**，请在使用时注意。
+在本文档中，您需要根据实际使用情况，修改**相关接口，Key 或 Secret 信息**，请在使用时注意。
 
 - 您可以 [点击这里](https://finclip.com/mop/document/faq/miniProgram/developer.html#_11-%E5%9C%A8finclip%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%AD%E5%A6%82%E4%BD%95%E5%AF%B9%E6%8E%A5%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98) 查看在 **FinClip 小程序**中对接微信支付的详细文档
 - 您可以 [点击这里](https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=8_5) 查看微信支付的相关开发文档
